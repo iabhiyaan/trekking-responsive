@@ -1,0 +1,99 @@
+@media(max-width:500px) {
+    .container {
+        width: 100%;
+    }
+
+    .slogan h2 {
+        font-size: 2rem
+    }
+
+    .slogan p {
+        font-size: 14px;
+    }
+
+    .arrow img {
+        height: 12px;
+    }
+
+    .box {
+        float: none;
+    }
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box {
+        margin: 20px;
+    }
+
+    .women {
+        text-align: right;
+        color: black;
+        position: relative;
+        bottom: -40px;
+    }
+
+    .women::after {
+        content: '';
+        position: absolute;
+        width: 89.6%;
+        bottom: 45px;
+        left: 0;
+        height: 2px;
+        background: #ccc;
+    }
+
+    fieldset {
+        width: 90%;
+        padding: 13px;
+        margin: auto;
+    }
+
+    legend {
+        padding: 0px;
+    }
+
+    fieldset p {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    #review .container {
+        padding: 23px;
+    }
+
+    #review img {
+        padding-left: 30px;
+    }
+
+    #review q {
+        padding: 36px;
+        font-size: 14px;
+    }
+
+    #footer {
+        padding: 0;
+    }
+
+    #footer .container {
+        padding: 10px 30px;
+    }
+
+    .footer__items h2 {
+        padding-top: 14px;
+    }
+
+    .footer__left,
+    .footer__right {
+        float: none;
+        width: 100%;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .footer__right h2 {
+    }
+}
